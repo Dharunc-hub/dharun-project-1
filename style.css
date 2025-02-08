@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0pr;
+}
+
+.container{
+    background-color:rgb(167, 139, 186);
+    color:rgba(4, 1, 9, 0.928);
+    margin:40px;
+    padding: 40px;
+    line-height:25px;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove{
+    from{background-color: rgb(120, 120, 186);}
+    to{background-color: blueviolet;}
+}
+
